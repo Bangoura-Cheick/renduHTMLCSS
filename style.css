@@ -145,3 +145,18 @@ Footer{
     button
 }
 
+.Apropos{
+    display: flex: ;
+    text-align: center;
+    flex-direction: row;
+}
+#Paraapropos{
+width: 50%;
+text-align: right;
+justify-content: right;
+flex-direction: row;
+}
+.Nous{
+  display: flex;
+  flex-direction: row;
+} 
