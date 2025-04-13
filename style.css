@@ -156,7 +156,50 @@ text-align: right;
 justify-content: right;
 flex-direction: row;
 }
-.Nous{
-  display: flex;
-  flex-direction: row;
-} 
+#Fabrique{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.made{
+    display:inline;
+    width: 15%;
+}
+#plant{
+    border: 1px solid black;
+}
+#hand{
+    border: 1px solid black;
+}
+#planet{
+    border: 1px solid black;
+}
+#faire{
+    display: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;  
+}
+#premier{
+    display: inline;
+text-align: right;
+justify-content: right;
+flex-direction: row;
+align-items: right;
+}
+#deuxième{
+    display: inline;
+text-align: right;
+justify-content: right;
+flex-direction: row; 
+align-items: right;
+}
+#troisième{
+    display: inline;
+text-align: right;
+justify-content: right;
+flex-direction: row; 
+align-items: right;
+}
