@@ -119,6 +119,9 @@ form{
         height: 150px;
 }
 }
+#boutton{
+    background-color: green;
+}
 Footer{
     display: flex;
     justify-content: center;
@@ -142,13 +145,6 @@ Footer{
     box-shadow: 1px 4px 15px black;
     margin: 12px;
     border: 1px solid black;
-    button
-}
-
-.Apropos{
-    display: flex: ;
-    text-align: center;
-    flex-direction: row;
 }
 #Paraapropos{
 width: 50%;
@@ -164,37 +160,39 @@ flex-direction: row;
 }
 
 .made{
-    display:inline;
-    width: 15%;
+    display:block;
 }
-#plant{
-    border: 1px solid black;
-}
-#hand{
-    border: 1px solid black;
-}
-#planet{
-    border: 1px solid black;
-}
+
 #faire{
-    display: column;
     flex-direction: column;
-    justify-content: center;
-    align-items: right;  
+    justify-content: space-between;
+    text-align: center;
+    img{
+        justify-content: left;
+        border: 1px solid black;
+    } 
+    p{
+        justify-content: right;
+        align-items: end;
+        flex-direction: row;
+        text-align: center;
+    }
 }
 #premier{
     display: inline;
-text-align: right;
-justify-content: right;
-flex-direction: row;
-align-items: right;
+    text-align: right;
+    justify-content: right;
+    flex-direction: row;
+    align-items: right;
 }
 #deuxième{
     display: inline;
-text-align: right;
-justify-content: right;
-flex-direction: row; 
-align-items: right;
+    text-align: right;
+    justify-content: right;
+    flex-direction: row; 
+    align-items: right;
+    padding-block: 40px;
+    background-color:gray;
 }
 #troisième{
     display: inline;
