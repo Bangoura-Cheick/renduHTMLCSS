@@ -6,10 +6,21 @@ a{
     text-decoration: none;
     color: black;
 }
-.imgbougie{
-    width: 300px;
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        ul{
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        align-self: right;
+        list-style: none;
+    }    
 }
-
+.imgbougie{
+    width: 300px
+}
 .Banniere{
     display: flex;
 }
